@@ -1,0 +1,38 @@
+//custom variables
+$dark-blue: #64717d;
+$darker-blue: #283746;
+$gold: #f0bb60;
+$orange: #e19663;
+$gray: #666768;
+$dark-gray: #5a5b5c;
+
+// import the functions & variables
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-theme-colors: (
+	"dark-blue": $dark-blue,
+	"darker-blue": $darker-blue,
+	"gold": $gold,
+	"orange": $orange,
+	"gray": $gray,
+	"dark-gray": $dark-gray,
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+$custom-position-values: (
+	30: 30%,
+	75: 75%,
+);
+
+$position-values: map-merge($custom-position-values, $position-values);
+
+$navbar-dark-active-color: $gold;
+$navbar-dark-color: $orange;
+$navbar-dark-hover-color: $gold;
+$navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-dark-toggler-border-color: rgba($navbar-dark-color, 0.1);
+
+//import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
