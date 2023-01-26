@@ -1,0 +1,34 @@
+.custom-shape-divider-bottom-1666838561 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1666838561 svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 59px;
+}
+
+.custom-shape-divider-bottom-1666838561 .shape-fill--orange {
+	fill: #e19663;
+}
+
+.custom-shape-divider-bottom-1666838561 .shape-fill--dark-blue {
+	fill: #64717d;
+}
+
+/** NOT NEEDED W/ BOOTSTRAP
+For tablet devices
+@media (min-width: 768px) and (max-width: 1023px) {
+	.custom-shape-divider-bottom-1666838561 svg {
+		width: calc(100% + 1.3px);
+		height: 120px;
+	}
+}
+ **/
