@@ -9,7 +9,9 @@ $dark-gray: #5a5b5c;
 // import the functions & variables
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
-
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 $custom-theme-colors: (
 	"dark-blue": $dark-blue,
 	"darker-blue": $darker-blue,
