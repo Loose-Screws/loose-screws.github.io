@@ -1,5 +1,5 @@
 //custom variables
-$dark-blue: #64717d;
+$dark-blue: #2C3A50;
 $darker-blue: #283746;
 $gold: #f0bb60;
 $orange: #e19663;
@@ -22,7 +22,7 @@ $custom-theme-colors: (
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
 $custom-position-values: (
-	30: 30%,
+	60: 60%,
 	75: 75%,
 );
 
@@ -36,4 +36,11 @@ $navbar-dark-toggler-border-color: rgba($navbar-dark-color, 0);
 //import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Source+Serif+4&display=swap');
+:root{
+	--bs-body-font-family:'Oxygen', sans-serif;
+}
+
 @import "../css/curves.css";
+@import "../css/background.css";

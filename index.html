@@ -12,7 +12,7 @@
 		<link href="css/main.min.css" rel="stylesheet" />
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 	</head>
-	<body class="bg-dark-blue">
+	<body class="bg-hexagon">
 		<nav class="navbar navbar-expand-sm navbar-dark bg-darker-blue">
 			<div class="container-fluid d-flex justify-content-space-between">
 				<a class="navbar-brand" href="./">
@@ -43,6 +43,9 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="/sponsors.html">Sponsors</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/portfolio.html">Portfolio</a>
 						</li>
 					</ul>
 				</div>
@@ -119,11 +122,11 @@
 			</div>
 		</nav>
 		<!--HERO-->
-		<div class="position-relative pb-5">
+		<div class="position-relative">
 			<img
-				src="img/tournament.jpg"
+				src="img/photos/tournament.jpg"
 				class="position-relative img-fluid w-100"
-				style="object-fit: cover; max-height: 60vh"
+				style="object-fit: cover; max-height: 60vh; filter:brightness(70%)"
 			/>
 			<div class="container position-absolute top-75 ps-sm-5 ps-2">
 				<h2 class="text-white fw-light">
@@ -139,7 +142,7 @@
 		<!--HERO-->
 		<!--MAIN CONTENT-->
 		<main>
-			<section class="position-relative pb-5">
+			<section class="position-relative py-5">
 				<div class="container">
 					<h1 class="text-gold">Loose Screws</h1>
 					<h5 class="text-orange fw-normal">FTC Team 22398</h5>
@@ -155,11 +158,11 @@
 								Robotics is a great way for students to learn more about STEM (Science Technology Engineering Mathemetics). We apply problem solving skills to create, modify, and improve our robot. 
 							</p>
 							<div class="container">
-								<img class="img-fluid rounded-4 d-none d-lg-block" src="img/tournament-2.jpg"/>
+								<img class="img-fluid rounded-4 d-none d-lg-block" src="img/photos/tournament-2.jpg"/>
 							</div>
 						</div>
 						<div class="col-md-6">
-							<img class="img-fluid rounded-4" src="img/robot.jpg" />
+							<img class="img-fluid rounded-4" src="img/photos/robot.jpg" />
 						</div>
 					</div>
 				</div>
@@ -181,7 +184,7 @@
 				<div class="container">
 					<div class="row d-flex pb-4">
 						<h2 class="text-white text-center py-4">Our Team</h2>
-						<img class="img-fluid rounded-4" src="img/team-photo.jpg" />
+						<img class="img-fluid rounded-4" src="img/photos/team-photo.jpg" />
 						<p class="text-white pt-4">
 							Our team is made of high school students ranging from freshmen to
 							seniors. While this is all of our first year on a robotics team,
@@ -196,13 +199,21 @@
 					</div>
 				</div>
 			</section>
-			<!-- <section class="container">
-				<div class="row">
-					<div class="col-6 py-5">
-						<h3>Sponsorship</h3>
-					</div>
+			<section class="container-fluid" id="awards">
+				<div class="container d-flex justify-content-center py-5">
+					<h3 class="text-white">Awards</h3>
 				</div>
-			</section> -->
+				<div class="container">
+					<div class="row text-white">
+						<div class="col d-flex justify-content-center">
+							<h5><span class="text-gold">1st Place Rookie Team</span> at NorthShore Qualifiers 2023</p>
+						</div>
+						<div class="col d-flex justify-content-center">
+							<h5><span class="text-gold">2nd Place Motivate</span> at NorthShore Qualifiers 2023</p>
+						</div>
+					</div>
+					<img class="img-fluid rounded-4 my-5" src="img/photos/motivate-award.jpeg"/>
+				</div>	</section>
 		</main>
 		<!--MAIN CONTENT-->
 	</body>
