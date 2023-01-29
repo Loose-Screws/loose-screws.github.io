@@ -23,6 +23,33 @@
 	fill: #64717d;
 }
 
+.custom-shape-divider-top-1675026645 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.custom-shape-divider-top-1675026645 svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 59px;
+}
+
+.custom-shape-divider-top-1675026645 .shape-fill {
+	fill: #E19663;
+}
+
+
+
+
+
+
+
+
 /** NOT NEEDED W/ BOOTSTRAP
 For tablet devices
 @media (min-width: 768px) and (max-width: 1023px) {
