@@ -1,5 +1,5 @@
 //custom variables
-$dark-blue: #2C3A50;
+$dark-blue: #2c3a50;
 $darker-blue: #283746;
 $gold: #f0bb60;
 $orange: #e19663;
@@ -9,7 +9,9 @@ $dark-gray: #5a5b5c;
 // import the functions & variables
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
-
+body {
+	font-family: "Open Sans", sans-serif;
+}
 $custom-theme-colors: (
 	"dark-blue": $dark-blue,
 	"darker-blue": $darker-blue,
@@ -35,12 +37,9 @@ $navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.
 $navbar-dark-toggler-border-color: rgba($navbar-dark-color, 0);
 //import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
-
-@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Source+Serif+4&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Source+Serif+4&display=swap');
-:root{
-	--bs-body-font-family:'Oxygen', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Source+Serif+4&display=swap");
+:root {
+	--bs-body-font-family: "Oxygen", sans-serif;
 }
-
 @import "../css/curves.css";
 @import "../css/background.css";
